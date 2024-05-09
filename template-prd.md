@@ -73,7 +73,7 @@ Target personas include:
 [Product Name] is the {goal} for the {company}. {Monetizations}. {Monetization Methods}. 
 
 ### <a name='ProductGoals'>Product Goals</a>
-####  5.2.1. <a name='MinimumViableProductis:'></a>Minimum Viable Product is:
+#### <a name='MinimumViableProductis:'>Minimum Viable Product is:</a>
 Minimum Viable Product is:
 - {Data Model}
 - {Business Model}
@@ -81,15 +81,15 @@ Minimum Viable Product is:
 - {SDLC Model}
 - {Design Scope}
 - {Product Metrics Model}
-####  5.2.2. <a name='SteadyStateGoals'>Steady State Goals</a>
+#### <a name='SteadyStateGoals'>Steady State Goals</a>
 Ultimately , the goal is to have [Product Name] to be {superlative} [Product Name] product for the {user base} This would include:
 - {Stretch Goal 1}
 - {Stretch Goal 2}
 - {Stretch Goal 3}
-###  5.3. <a name='SupportingJustifyingData'>Supporting Justifying Data</a>
+#### <a name='SupportingJustifyingData'>Supporting Justifying Data</a>
 {Supporting Justifying Data}
 
-##  6. <a name='UserRiskandorcriticalelementstosuccess'></a>User Risk and/or critical elements to success
+## <a name='UserRiskandorcriticalelementstosuccess'>User Risk and/or critical elements to success</a>
 - Listing these here ensures it gets attention later. For example, for us ‘limitation in the XYZ’ and in the spec process we should pay a lot of attention to this as if we don’t get it right, success is at risk.
 -  What might cause the product to not be successful or not meet the company goal?
 	- {Risk 1}
@@ -99,7 +99,7 @@ Ultimately , the goal is to have [Product Name] to be {superlative} [Product Nam
 	- {Abuser Story - Risk 2}
 	- {Abuser Story - Risk 3}
 
-##  7. <a name='SuccessMetrics'></a>Success Metrics
+## <a name='SuccessMetrics'>Success Metrics</a>
 - What does success look like?
 	- {KPI 1} on [Product Name].
 	- {KPI 2} on [Product Name].
@@ -107,35 +107,36 @@ Ultimately , the goal is to have [Product Name] to be {superlative} [Product Nam
 - In more detail there are both product metrics and business metrics. They will help us understand:
 	- if the product is successful and 
 	- if the product has had the expected impact on the business overall
-## 7.1. It is helpful to establish ‘launch’ and ‘steady state’ objectives:
+## <a name='LaunchSteady'>It is helpful to establish ‘launch’ and ‘steady state’ objectives:</a>
 - Launch highlights what we expect to see if we are on track to steady-state.
 - Steady-state helps with monitoring i.e. if this metrics goes below XYZ threshold please alert me as it will probably require my attention.*
 
-###  7.1. <a name='Launch'></a>Launch
-####  7.1.1. <a name='Product'></a>Product
-- Commercial Viability: 10+ paying accounts in 30 days post commercial launch 
-- Adoption: 90% of paying accounts are weekly active users
-- Support & Reliability: 95% uptime for 90 days post commercial launch
-####  7.1.2. <a name='Business'></a>Business
-- Customer engagement: Customers provide feedback
-- Revenue realization: Customers pay the bill, don't quit payments, don't churn
-- Development Pipeline and Roadmap: Product provides a post-launch fast follow roadmap for development to continue to work against
-- Profitability: ROI realized at time (TBD).
+### <a name='Launch'>Launch</a>
+#### <a name='Product'>Product</a>
+- Commercial Viability: {}
+- Adoption: {}
+- Support & Reliability: {}
+#### <a name='Business'>Business</a>
+- Customer engagement: {}
+- Revenue realization: {}
+- Development Pipeline and Roadmap: {}
+- Profitability: {}
 
-###  7.2. <a name='SteadyState'></a>Steady State
-####  7.2.1. <a name='ProductUsageEngagementChurn'></a>Product (Usage, Engagement, Churn)
-- 90% of licensed users are monthly active within [Product Name].
-- Average session length >2 min
-- Less than 10% 180-day churn
+### <a name='SteadyState'>Steady State</a>
+#### <a name='ProductUsageEngagementChurn'>Product (Usage, Engagement, Churn)</a>
+- Commercial Viability: {}
+- Adoption: {}
+- Support & Reliability: {}
 
-####  7.2.2. <a name='Business-1'></a>Business
-- Revenue/user on a la carte pricing: $10/u/m | $120/u/m
-- Revenue/business pricing: ($1M/year)
-- Identifying new markets to break into
+#### <a name='Business-1'>Business</a>
+- Customer engagement: {}
+- Revenue realization: {}
+- Development Pipeline and Roadmap: {}
+- Profitability: {}
 
-##  8. <a name='FunctionalRequirements'></a>Functional Requirements
-Requirements are now tracked as individual Github issues as user stories.
-- See the [project plan](https://github.com/users/todd-valentine/projects/1) for the priorities.
+## <a name='FunctionalRequirements'>Functional Requirements</a>
+High Level requirements are listed below. They should be tracked as individual Software Development items (e.g. JIRA, Github) issues/bugs as relevant objects.
+- See the [project plan](LinkToProjectPlan) for the priorities.
 
 ```
 Specific use cases are organized by priority:
