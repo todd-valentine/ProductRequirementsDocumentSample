@@ -237,26 +237,23 @@ Please see below suggestions for non-functional requirements. It’s important t
 
 ### <a name='Supportability'>Supportability</a>
 - User tooltips and other non-intrusive in-product help 
-- Docusaurus user site to host documentation (videos, articles, tutorials, Q&As, user videos)
+- Documentation
 - Report a bug inside product. Capture screenshot, submit a ticket.
-- - There should be a 3rd party solution for reporting a bug. [#231](https://github.com/ervaren/[Product Name]/issues/231)
-- Usability metrics can stem from the product metrics that exist from MixPanel and Hotjar. Anything further is out of scope currently.
+- Usability metrics can stem from the product metrics that exist from 3rd parties.
 
-###  9.4. <a name='Localizability'></a>Localizability
-- English only is current MVP scope.
-- USD is the only currency in MVP scope.
+### <a name='Localizability'></a>Localizability
+- English only?
+- USD only currency in  scope?
 - Timezone, languages, currencies, time display formats, special characters - no special requirements, although design must be flexible enough to allow for this in the future.
 
 ###  9.5. <a name='LegalObligations'></a>Legal Obligations
-- EULA [#70](https://github.com/ervaren/[Product Name]/issues/70) 
-- Terms and Conditions [#71](https://github.com/ervaren/[Product Name]/issues/71) - P0: .
-- Privacy Policy [#72](https://github.com/ervaren/[Product Name]/issues/72) - *include GDPR for Europe, CCPA for California, others as required.*
-- - All of these would depend on the functionality provided GCP, and perhaps they have documents we can leverage.
-- - GDPR - For EU Customers
-- - FedRamp - For Gov't agencies and contractors
-- - HIPAA - For HealthCare Orgs
-- - CCPA - For Californians
-- [#73](https://github.com/ervaren/[Product Name]/issues/73) Clickthrough agreement to the EULA, Ts&Cs and Privacy Policy.
+- {EULA}
+- {Terms and Conditions}
+- {Privacy Policy} 
+- {GDPR - For EU Customers}
+- {FedRamp - For Gov't agencies and contractors}
+- {HIPAA - For HealthCare Orgs}
+- {CCPA - For Californians}
 
 ###  9.6. <a name='Data'></a>Data 
 Typically addresses:
