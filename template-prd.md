@@ -15,13 +15,12 @@ The [Product Name] application will {end user benefit}. The application at Minim
 
 ## <a name='Background'>Background</a>
 ### <a name='Marketcontext'>Market context</a>
-{Market Context}
-### <a name='Marketcontext'>Market competition</a>
 - What does the market look like?
-{Narrative}
+  - {Market Context}
+  - {Narrative}
 ### <a name='Competitivecontext'>Competitive and Business context</a>
 - What competition is there?
-{Narrative}
+  - {Narrative}
 #### <a name='Direct Competition'> Direct Competition (e.g. example1, example2)</a> ####
 - {Category Summary}
 	- {Weaknesses in Category}
