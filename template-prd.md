@@ -170,7 +170,7 @@ Links to discussions, RFCs, Designs, etc. linked here.
 Add Links and Descriptions as Necessary
 ```
 
-| Short Name | ```<Link>```       | Description/User Story         |
+| Short Name | Link       | Description/User Story         |
 | ---------- | ------------------ | ------------------------------ |
 | Core UX    | www.figma.com/link | As a user, I want to, so that, |
 
@@ -210,11 +210,11 @@ Please see below suggestions for non-functional requirements. It’s important t
 ```
 
 #### <a name='ApplicationStack'>Application Stack</a>
-- Front End: {React}
+- Front End: {e.g. React}
 - - Because: {it's common, well known, easy to hire for, performant.}
-- Middleware: {Node.js} 
+- Middleware: {e.g. Node.js} 
 - - Because: {Responsiveness. Asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.}
-- Backend: {Neo4j}
+- Backend: {e.g. Neo4j}
 - - {Performance, Backup and restore functionality.}
 
 #### <a name='Security'> Security </a>
@@ -227,7 +227,7 @@ Please see below suggestions for non-functional requirements. It’s important t
 - Availability
  - - {99% (sure why not?)}
 - Uptime
- - - {99% (sure why not?)}
+ - - {99.9% (sure why not? It's not like AWS US E2 ever goes down ;) >.)}
 - Scalability
  - - {Global Scalability}
 - Reliability
@@ -241,12 +241,12 @@ Please see below suggestions for non-functional requirements. It’s important t
 - Report a bug inside product. Capture screenshot, submit a ticket.
 - Usability metrics can stem from the product metrics that exist from 3rd parties.
 
-### <a name='Localizability'></a>Localizability
+### <a name='Localizability'>Localizability</a>
 - English only?
-- USD only currency in  scope?
+- USD only currency in scope?
 - Timezone, languages, currencies, time display formats, special characters - no special requirements, although design must be flexible enough to allow for this in the future.
 
-###  9.5. <a name='LegalObligations'></a>Legal Obligations
+### <a name='LegalObligations'>Legal Obligations</a>
 - {EULA}
 - {Terms and Conditions}
 - {Privacy Policy} 
@@ -255,108 +255,101 @@ Please see below suggestions for non-functional requirements. It’s important t
 - {HIPAA - For HealthCare Orgs}
 - {CCPA - For Californians}
 
-###  9.6. <a name='Data'></a>Data 
+### <a name='Data'>Data</a>
 Typically addresses:
-- retention - No end user data to inform this need or requirement.
+- retention - 
 - freshness and/or refresh rate - Speed and responsiveness.
 - granularity - No end user data to inform this need or requirement.
 - encryption - Data encrypted at rest and in transit.
-- security - Identity and access management handled at the GCP level.
-- segmentation - DB segmentation handled at the Aura/GCP level - handled at the GCP level.
-- [#233](https://github.com/ervaren/[Product Name]/issues/70) Joe to look into more of what Aura offers us from a data rentention, segmentation, backup, encryption, etc.
-- - Database back up and reliability
-- - Do we rely on Aura built in DB?
-- - And their backup and restore functionality?
-- - Investigate
-- - - What kind of SLAs do they offer?
+- security - 
+- segmentation - 
 
-###  9.7. <a name='MeasurementInstrumentationforproductmetrics'></a>Measurement Instrumentation for product metrics
-- [#79](https://github.com/ervaren/[Product Name]/issues/79)
-- How will these use cases be monitored in terms of usage?
-	- Once the data starts flowing in at the early usage stages, we can start to segment the information for evaluating use cases. If we achieve high enough volumes, we can implement A/B testing.
-- Do we need usage tags?
-	- MixPanel and Usage Tags/Event Tags to be inserted into react Components.
-	- HotJar for Recording Web Sessions.
-	- Optimizely for AB Testing
-	- https://chartmogul.com for revenue. Per Kim's recommendation.
-- How does this change with the post-cookie era?
-	- Nothing to worry about for now.
+### <a name='MeasurementInstrumentationforproductmetrics'>Measurement Instrumentation for product metrics</a>
+- TBD
 
-##  10. <a name='TestScenarios'></a>Test Scenarios
-- [#3](https://github.com/ervaren/[Product Name]/issues/3)Generate Test Scenarios
+## <a name='TestScenarios'>Test Scenarios</a>
+- TBD
 
-##  11. <a name='DeploymentPlan'></a>Deployment Plan
-- Workshop - November 17th - 18th
-- Create risk/hello world - Target: November 29
-- MVP scope agreed on - TBD
-- MVP Running - 2/1
-- Alpha - 3/1
-- Marketing starts - 4/1
-- Beta - 5/1
-- Paywall is Up - 6/1
-- Validation of product market fit - July 1 2022
+## <a name='DeploymentPlan'>Deployment Plan</a>
+- Kickoff - 
+- Criteria / MVP Scope Drafted - 
+- MVP scope agreed on - 
+- MVP Running - 
+- Alpha - 
+- Marketing starts - 
+- Beta - 
+- Paywall is Up - 
+- Go/no-go review
+- SHIPIT.
 
-##  12. <a name='GoToMarket'></a>Go To Market
-###  12.1. <a name='PricingandRevenueModel'></a>Pricing and Revenue Model
-- Paywalls - 2 tiers
-	- Enterprise 
-		- includes Aggregation and Permissions
-		- Additional modules/addons/tabs
-		- Presentation Mode/Meeting Mode
-	- Personal 
-		- More than 1 project
-		- more than 1 users/collaborators (guest permissions)
-		- Additional modules/addons/tabs
-		- Presentation Mode/Meeting Mode
+##  <a name='GoToMarket'>Go To Market</a>
+###  <a name='PricingandRevenueModel'>Pricing and Revenue Model</a>
+- Pricing Tiers
+	- Top
+	- - includes ...
+	- - excludes ...
+	- Middle
+	- - includes ...
+	- - excludes ...
+	- Low 
+	- - includes ...
+	- - excludes ...
+	- Free
+	- - includes ...
+	- - excludes ...
+- Pricing benchmarks to a comppetitior
+- Placeholder pricing?
 
-- Pricing benchmarks to a Clickup/Clarizen: $10/u/m - $60/u/m
-- Placeholder pricing (from workshop): $19/u/m
-
-###  12.2. <a name='MarketingPlan'></a>Marketing Plan
+### <a name='MarketingPlan'>Marketing Plan</a>
 Outlets 
-- University 
+- Cheap Academia
 	- Student licenses
 	- Speaker and Presenting Opportunities
-	- PM Certifications
-	- PM Masters 
-- PMI / PMI Phoenix / PMI Mile High
+	- Certifications
+- Industry groups
 	- Target members
-- PMI
-- Podcasts (e.g. PMHH, Digital PM, Projectify)
-Project Management Influencers
-- Social Media?
-Titles:
-- Project
-- Program
-- Portfolio
-Roadshow:
-- MVP
-- Get out and demo.
-Evangelical Content
-- Blogs
-- Education
-- Community - (Paywalled?)
+    - Podcasts (e.g. This is Product Management)
+- Industry Influencers
+- Social Media
+  - AI gen Content policy?
+    - LinkedIn 
+    -  Target Titles:
+- Roadshow:
+  - MVP.
+  - Get out and demo. automate and synthesize feedback.
+- Evangelical Content
+  - Blogs
+  - Education
+  - Community - (Paywalled?)
+- Marketing Team
+  - Paid?
+  - Social?
+  - SEO?
+  - etc?
 
-##  13. <a name='AcceptanceCriteria'></a>Acceptance Criteria
-- This determines the release blockers. Anything else may be filed as ‘issues requiring immediate attention post launch ie sprint post launch’ or a plan to get to the steady state.
-For MVP: 
-- all P0 features for the Individual use cases, not necessarily the enterprise level
-- low-latency across all test scenarios
-- passing all test scenarios
-- customer feedback form
-- Payment processing (Braintree/Stripe)
-- Paywalls - 2 tiers
+##  <a name='AcceptanceCriteria'>Acceptance Criteria</a>
+- This determines the release blockers. 
+- Anything else may be filed as ‘issues requiring immediate attention post launch ie sprint post launch’ or a plan to get to the steady state.
+- For MVP: 
+  - - All P0 features for the Individual use cases, not necessarily the "reach" level
+  - - usability testing
+  - - passing all test scenarios
+- Feedback?
+- Commercials?
+- Paywalls?
 	- Enterprise 
-		- includes Aggregation and Permissions
+		- includes ...
+		- excludes ...
+	- Mid-Market
+        - includes ...
+		- excludes ...
 	- Personal 
-		- More than 1 project
-		- more than 1 users/collaborators (guest permissions)
-		- Additional modules/addons/tabs
-		- Presentation Mode/Meeting Mode
-
-##  14. <a name='ReferenceDocuments'></a>Reference Documents
+    	- includes ...
+		- excludes ...
+		
+##  <a name='ReferenceDocuments'>Reference Documents</a>
 Any document that hasn’t been linked already.
 
-##  15. <a name='Furtherreading:'></a>Further reading:
-- Predictably irrational as applied to project management
-- Josh Ramirez - Behavioral PM
+## <a name='Furtherreading:'>Further reading</a>
+ - As Required...
+
