@@ -297,7 +297,7 @@ Typically addresses:
 	- Free
 	- - includes ...
 	- - excludes ...
-- Pricing benchmarks to a comppetitior
+- Pricing benchmarks to a competitior
 - Placeholder pricing?
 
 ### <a name='MarketingPlan'>Marketing Plan</a>
