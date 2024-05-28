@@ -174,9 +174,10 @@ Add Links and Descriptions as Necessary
 | ---------- | ------------------ | ------------------------------ |
 | Core UX    | www.figma.com/link | As a user, I want to, so that, |
 
-#### <a name='WireframeOutstandingQuestions'></a>Wireframe Outstanding Questions
+#### <a name='WireframeOutstandingQuestions'>Wireframe Outstanding Questions</a>
 - {Questions or Links}
-###<a name='ProductObjectsandInteractions'> Product Objects and Interactions </a>
+
+### <a name='ProductObjectsandInteractions'> Product Objects and Interactions </a>
 - These objects are core objects in [Product Name].
 
 ### <a name='Edge-cases'>Edge-cases</a>
