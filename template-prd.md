@@ -216,6 +216,8 @@ Please see below suggestions for non-functional requirements. It’s important t
 - - Because: {Responsiveness. Asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.}
 - Backend: {e.g. Neo4j}
 - - {Performance, Backup and restore functionality.}
+- APIs
+- - What API operations need to be fully described. {Typically completed with engineering lead input after reading through the PRD.}
 
 #### <a name='Security'> Security </a>
 - Data encrypted in transit
