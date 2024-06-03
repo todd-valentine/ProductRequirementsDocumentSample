@@ -1,4 +1,4 @@
-[Product Name]
+#[Product Name]
 ***
 - [Product Name] Product Requirements Document (PRD)
 - Status: {Draft, Stable Draft, Under Review, In Discussion, Approved, In Work, Shipped, Archived}
@@ -6,10 +6,10 @@
 - PRD Author: {PRD Author Name}
 ***
 
-## Table of Contents
+##Table of Contents
 {TOC}
 
-##  <a name='Scope'></a>Scope
+##<a name='Scope'>Scope</a>
 The scope of this document is the initial product requirements document for the overall [Product Name] application.
 The [Product Name] application will {end user benefit}. The application at Minimum Viable Product Stage (MVP) will allow [MVP functionality].
 
