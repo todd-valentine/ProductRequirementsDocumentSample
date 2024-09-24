@@ -104,9 +104,9 @@ Ultimately , the goal is to have [Product Name] to be {superlative} [Product Nam
 	- {KPI 1} on [Product Name].
 	- {KPI 2} on [Product Name].
 	- {KPI 3} on [Product Name].
-- In more detail there are both product metrics and business metrics. They will help us understand:
-	- if the product is successful and 
-	- if the product has had the expected impact on the business overall
+- There are both product metrics and business metrics. They will help teams understand:
+	- if the product is successful
+	- if the product has had the expected impact on the business
 ## <a name='LaunchSteady'>It is helpful to establish ‘launch’ and ‘steady state’ objectives:</a>
 - Launch highlights what we expect to see if we are on track to steady-state.
 - Steady-state helps with monitoring i.e. if this metrics goes below XYZ threshold please alert me as it will probably require my attention.*
@@ -137,14 +137,15 @@ High Level requirements are listed below. They should be tracked as individual S
 
 ```
 Specific use cases are organized by priority:
-- P0 ‘Must Haves’ (release blockers) 
-- P1 ‘Nice to haves’ (Fast Follow features, but not release blockers)
-- P2 'Nice to haves' (not required in the fast follow phase.)
+	- P0 ‘Must Haves’ (release blockers) 
+	- P1 ‘Nice to haves’ (Fast Follow features, but not release blockers)
+	- P2 'Nice to haves' (not required in the fast follow phase.)
 
 MVP is composed of all P0s, and P1s may be:
-  0- Moved up to a P0 and included in MVP.
-  1- Moved to a different priority or prioritized lower in other P1 user-stories if they are still essential elements but not as urgent as the others.
-  2- migrated to ‘out of scope’
+  - 0 - Moved up to a P0 and included in MVP.
+  - 1 - Moved to a different priority or prioritized lower in other P1 user-stories if they are still essential elements but not as urgent as the others.
+  - 2 - migrated to ‘out of scope’
+
 The goal here is to work the P0 scope to get an MVP released, e.g. do not block the release of the product with P1s but acknowledge that they must be added soon thereafter.
 ```
 
@@ -153,10 +154,10 @@ The goal here is to work the P0 scope to get an MVP released, e.g. do not block 
 (UX Designer Input Ideal Here)
 ```
 - {See individual user stories for specific flows as they're developed, or user flow directory for them overall.} 
-- - Each user story contains key flows for the target users- for each step on the flow, what is the goal/task/decision/action that needs to be performed.
-- - Note that these flows are functional flows in that they may not correspond to different pages. 
-- - They may be condensed in the UI/UX.
-- - It helps shows logical steps and what is required to support a decision etc.
+	- Each user story contains key flows for the target users- for each step on the flow, what is the goal/task/decision/action that needs to be performed.
+	- Note that these flows are functional flows in that they may not correspond to different pages. 
+	- They may be condensed in the UI/UX.
+	- It helps shows logical steps and what is required to support a decision etc.
 #### <a name='FlowOutstandingQuestions'>Flow Outstanding Questions </a>
 ```
 Links to discussions, RFCs, Designs, etc. linked here.
@@ -180,7 +181,7 @@ Add Links and Descriptions as Necessary
 #### Typically: 
 - Default Values
 - First time users flow and UI (including WalkMe requirements) 
-- - This is critical to improve onboarding and TTV
+	- This is critical to improve onboarding and TTV
 - No data available states
 - Error handling
 - Special states (logged in Vs not logged in for instance)
@@ -197,20 +198,20 @@ Please see below suggestions for non-functional requirements. It’s important t
 - e.g. [Product Name] will be architected as modern SaaS. A {general-purpose} {web} {application}with a {Neo4j/Oracle} back-end, {NodeJS middleware or} and {React} front end. Hosted on {AWS, Azure, GCP, On-Prem}.
 ```
 - Guiding design thoughts
-- - Don't reinvent the wheel. 
-- - Use best of breed tooling. 
-- - Use technologies that we can hire for. 
-- - Dogfood it/drink our own champagne.
+	- Don't reinvent the wheel. 
+	- Use best of breed tooling. 
+	- Use technologies that we can hire for. 
+	- Dogfood it/drink our own champagne.
 ```
 #### <a name='ApplicationStack'>Application Stack</a>
 - Front End: {e.g. React}
-- - Because: {it's common, well known, easy to hire for, performant.}
+	- Because: {it's common, well known, easy to hire for, performant.}
 - Middleware: {e.g. Node.js} 
-- - Because: {Responsiveness. Asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.}
+	- Because: {Responsiveness. Asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.}
 - Backend: {e.g. Neo4j}
-- - {Performance, Backup and restore functionality.}
+	- {Performance, Backup and restore functionality.}
 - APIs
-- - What API operations need to be fully described. {Typically completed with engineering lead input after reading through the PRD.}
+	- What API operations need to be fully described. {Typically completed with engineering lead input after reading through the PRD.}
 #### <a name='Security'> Security </a>
 - Data encrypted in transit
 - Data encripted at rest
@@ -273,17 +274,17 @@ Typically addresses:
 ###  <a name='PricingandRevenueModel'>Pricing and Revenue Model</a>
 - Pricing Tiers
 	- Top
-	- - includes ...
-	- - excludes ...
+		- includes ...
+		- excludes ...
 	- Middle
-	- - includes ...
-	- - excludes ...
+		- includes ...
+		- excludes ...
 	- Low 
-	- - includes ...
-	- - excludes ...
+		- includes ...
+		- excludes ...
 	- Free
-	- - includes ...
-	- - excludes ...
+		- includes ...
+		- excludes ...
 - Pricing benchmarks to a competitior
 - Placeholder pricing?
 
@@ -317,9 +318,9 @@ Outlets
 - This determines the release blockers. 
 - Anything else may be filed as ‘issues requiring immediate attention post launch ie sprint post launch’ or a plan to get to the steady state.
 - For MVP: 
-  - - All P0 features for the Individual use cases, not necessarily the "reach" level
-  - - usability testing
-  - - passing all test scenarios
+  	- All P0 features for the Individual use cases, not necessarily the "reach" level
+  	- usability testing
+  	- passing all test scenarios
 - Feedback?
 - Commercials?
 - Paywalls?
