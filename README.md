@@ -8,7 +8,7 @@
  - Consider this a guide for a PM to start from, and edit as much as possible. Too much noise will leave the signal of the PRD lost.
  - Use the markdown as a form or template to start from. The sections considered are below for reference.
 
- 1. Overview / Introduction
+1. Overview / Introduction
    - Purpose: Explains why the product or feature is being developed, the problem it is solving, and the high-level goals.
    - Objective: A concise statement of the project’s primary goal.
    - Stakeholders: A list of key people involved in the project, such as product managers, developers, designers, QA, and other business units.
@@ -67,10 +67,10 @@
 ### Why a PRD is Important
  - A well-written PRD ensures that the team understands:
 	- What is being built (scope and features).
-   - Why it’s being built (objectives and use cases).
-   - How it will be built (functional, technical, and design requirements).
-   - When it will be delivered (roadmap and release timeline).
-   - Who is responsible for each part of the process (stakeholders and teams).
+	- Why it’s being built (objectives and use cases).
+	- How it will be built (functional, technical, and design requirements).
+	- When it will be delivered (roadmap and release timeline).
+	- Who is responsible for each part of the process (stakeholders and teams).
 
- - Takeaway: The PRD helps avoid miscommunication, reduces scope creep, and aligns everyone toward a common goal.
+### Takeaway: The PRD helps avoid miscommunication, reduces scope creep, and aligns everyone toward a common goal.
 
