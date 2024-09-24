@@ -178,14 +178,14 @@ Add Links and Descriptions as Necessary
 - These objects are core objects in [Product Name].
 
 ### <a name='Edge-cases'>Edge-cases</a>
-#### Typically: 
+#### Typically starts with: 
 - Default Values
-- First time users flow and UI (including WalkMe requirements) 
-	- This is critical to improve onboarding and TTV
+#### Follows with:
+- First time users flow and UI (consider onboarding guides) 
 - No data available states
 - Error handling
-- Special states (logged in Vs not logged in for instance)
-- Special users (for instance- free user Vs paid user, etc… if one is the main use-case, address what the other one will see- if at all.)
+- Special states (logged in versus not logged in for instance)
+- Special users (e.g. - a free user versus paid user, etc… if one is the main use-case, address what the other one will see- if at all.)
 ### <a name='Outofscoperequirements'>Out of scope requirements</a>
 *Sometimes, it helps to clearly say ‘and we will NOT be solving in this spec for XYZ special case’*
 - e.g. we run out of money.
@@ -249,7 +249,7 @@ Please see below suggestions for non-functional requirements. It’s important t
 - {CCPA - For Californians}
 ### <a name='Data'>Data</a>
 Typically addresses:
-- retention - 
+- retention - consider privacy and legal requirements
 - freshness and/or refresh rate - Speed and responsiveness.
 - granularity - No end user data to inform this need or requirement.
 - encryption - Data encrypted at rest and in transit.
