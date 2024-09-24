@@ -218,17 +218,17 @@ Please see below suggestions for non-functional requirements. It’s important t
 - Abuser prevention, detection and reporting
 #### <a name='SLA'>SLA</a>
 - Latency
- - - {User perceived low latency at browser level}
+	- User perceived low latency at browser level}
 - Availability
- - - {99% (sure why not?)}
+	- 99% (sure why not?)}
 - Uptime
- - - {99.9% (sure why not? It's not like AWS US E2 ever goes down ;) >.)}
+	- 99.9% (sure why not? It's not like AWS US E2 ever goes down ;) >.)}
 - Scalability
- - - {Global Scalability}
+	- Global Scalability}
 - Reliability
- - - {Trusted by the enterprise}
+	- Trusted by the enterprise}
 - Quality
- - - {Trusted by the enterprise}
+	- Trusted by the enterprise}
 ### <a name='Supportability'>Supportability</a>
 - User tooltips and other non-intrusive in-product help 
 - Documentation
