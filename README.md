@@ -4,6 +4,7 @@
 
  - The PRD ensures that everyone has a shared understanding of what the product is and how it will work. Outlined sections in the markdown sample PRD covers these sections, and should be varied depending on how the individual PM, and product team want to operate. 
 
+## Repo Purpose
  - Consider this a guide for a PM to start from, and edit as much as possible. Too much noise will leave the signal of the PRD lost.
 
  1. Overview / Introduction
