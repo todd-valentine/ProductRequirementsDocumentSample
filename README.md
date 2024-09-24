@@ -6,6 +6,7 @@
 
 ## Repo Purpose
  - Consider this a guide for a PM to start from, and edit as much as possible. Too much noise will leave the signal of the PRD lost.
+ - Use the markdown as a form or template to start from. The sections considered are below for reference.
 
  1. Overview / Introduction
 
